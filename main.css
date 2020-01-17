@@ -43,9 +43,8 @@ h4{
 .list{
   padding: 1.8em 0em 3em 2em;
   animation: fadein 2s;
-  float: left;
   text-align: left;
-  width: 90vw
+  width: 80vw
   position: relative;
   z-index: 1;
 }
