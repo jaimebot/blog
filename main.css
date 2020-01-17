@@ -46,7 +46,6 @@ h4{
   text-align: left;
   width: 80vw
   position: relative;
-  z-index: 0;
 }
 
 a:link {
@@ -72,7 +71,7 @@ a:hover {
   float: right;
   text-align: justify;
   width: 30vw;
-  z-index: 0;
+  z-index: 99999;
   position: relative;
 }
 
