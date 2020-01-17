@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1400px) {
   #container, #header, #content, #footer {
     float: none;
     width: auto;
