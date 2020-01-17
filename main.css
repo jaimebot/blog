@@ -43,9 +43,10 @@ h4{
 .leftcolumn {
   padding: 3em 8em;
   animation: fadein 2s;
+  float: left;
   text-align: left;
   width: 70vw;
-  position: fixed;
+  position: relative;
   z-index: 0;
 }
 
