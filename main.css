@@ -40,11 +40,11 @@ h4{
   font-weight: 900;
 }
 
-.list{
+.leftcolumn {
   padding: 1.8em 0em 0em 0em;
   animation: fadein 2s;
   text-align: left;
-  width: 80vw
+  width: 80vw;
   position: relative;
 }
 
