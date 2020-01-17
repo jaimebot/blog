@@ -74,6 +74,7 @@ a:hover {
   float: right;
   width: 30vw;
   position: relative;
+  display: none;
 }
 
 .bioTitle{
