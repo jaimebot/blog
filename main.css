@@ -45,7 +45,7 @@ h4{
   animation: fadein 2s;
   text-align: left;
   width: 70vw;
-  position: relative;
+  position: fixed;
   z-index: 0;
 }
 
