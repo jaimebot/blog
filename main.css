@@ -15,7 +15,7 @@ body{
   line-height: 21px;
   color: #DAFEEA;
   background-color: #2D2E2E;
-  position: absolute;
+  position: fixed;
 }
 
 h1, h2, h3{
@@ -46,7 +46,7 @@ h4{
 .list{
   padding: 3em 8em;
   animation: fadein 2s;
-  position: absolute;
+  position: fixed;
   z-index: 0;
 }
 
@@ -78,6 +78,7 @@ a:hover {
   width: 40vw;
   z-index: 99999;
   position: relative;
+  display: none;
 }
 
 .bioTitle{
@@ -121,7 +122,7 @@ a:hover {
         }
         .list{
           padding: 3em 3em 3em 3em;
-          position: absolute;
+          position: fixed;
         }
         .bio{
           padding: 1em 0;
@@ -129,6 +130,7 @@ a:hover {
           text-align: left;
           width: 100%;
           margin: 0 auto;
+          display: none;
         }
 
         .bioTitle{
