@@ -15,6 +15,7 @@ body{
   line-height: 21px;
   color: #DAFEEA;
   background-color: #2D2E2E;
+  position: absolute;
 }
 
 h1, h2, h3{
@@ -45,7 +46,7 @@ h4{
 .list{
   padding: 3em 8em;
   animation: fadein 2s;
-  position: relative;
+  position: absolute;
   z-index: 0;
 }
 
