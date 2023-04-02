@@ -119,8 +119,8 @@ a:hover {
           font-size: 2em;
         }
         .list{
-          padding: 2em 2em 2em 2em;
-          position: fixed;
+          padding: 3em 3em 3em 3em;
+          position: absolute;
         }
         .bio{
           padding: 1em 0;
