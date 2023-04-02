@@ -15,8 +15,9 @@ body{
   line-height: 21px;
   color: #DAFEEA;
   background-color: #2D2E2E;
-  position: absolute;
+  position: fixed;
   width: 100%;
+  height: 100%;
 }
 
 h1, h2, h3{
