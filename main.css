@@ -43,7 +43,7 @@ h4{
 }
 
 .list{
-  padding: 3em 8em;
+  padding: 2em 2em;
   animation: fadein 2s;
   position: relative;
   z-index: 0;
@@ -119,7 +119,7 @@ a:hover {
           font-size: 2em;
         }
         .list{
-          padding: 0em 0em;
+          padding: 2em 2em;
           float: none;
           text-align: left;
           width: 100%;
