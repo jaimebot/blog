@@ -1,6 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+body {
+  background: #fff;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+}
+
+.wrapper {
+  animation: scroll 70s linear infinite;
+  background: url("https://lh3.googleusercontent.com/kSa_S6jvBskiL0FZUogtw-JuQktRTWOvIezBstVtNP-coW0cGyzKy25RPRzbBIl5xMjIw-ZXHxz4RoHCdzm9sfzXHt9PJnI1XoOZYMWXAnFuTa3Od8q8JaOFVEztw8TPgR48J32PdLHAr0EgyrA6HdbNUddmjp9yGddOh_0BBfUEUHx7tivfW_M_pOfcZRwBtD3QFsJ3sWw50Jyf7s4uS5ZI8RcR6oLz1SWB9N41MOFhwUZv4rZ6zjN99-jFCt8FTlwretqZKZ1VVhDHD2UPpQlGwsfXGiek4AGNfGn48ZayVc6qoIJOKLqbbaY97U-bG30QrMQTcEzJ0TwBpbcPl3luOCrcmBxK51asNqO7SJJd1a3JXJ4rqogpmsp7c3PkGkLKgL7i89rfORiuQTwh1pa7G_5QYBDBHcSuR6hXQgrCsgiOU80bEX4JmmYpMkJPY0PHEUy8RQCsAkiociaVQh5pdLz9Cl-5mCRFh0nXGcd2-ZNOaDpN_lsDvywHxAlSk1tQgz8yQ3WdJlmizrobmFyXkB2Rb5h5uRFMvNZyZZPqbKvwFTX_5U7LcsU9KWxZXpE1bNgqEEXC0vUp5OhrSn_I6u7UlaJ8YrPbIJzfAFSZMh43Cm9XIz65368Mwpk_QTEHf4CIo0WkvjLli3weOMmK3Z4Je5TNAgV4EaDoBRQwsBcONSzL8jEUZolZ53WCky5oDCSMUP0a-q1ueZqN2QNP_2DAMSsR6nWA4SxSutNXobhETgglKFNKhUyxyZrfBEUus5v-utBtNeMr1Qbhl9FNK_7v10eckAitWmBb7ArBNv7whFD20C3MvFb5b54SzW-GNA4pwa0xwJ6NZ_rA75_GWF2o_W8x-mUTRTqcdT_LMphR3FmM5xSR6AhMoN1ypg4gHH_4np-ogBnLEJIkBWr6dkXePSlOMQfLW-1uwFIc6jZdMlwKD9MjowdSz4nL2WRTj3Uk4OAwWWeRx-QKsFpZmVeWfvHMm2cxNdWnrg7U5YP9nHvvRg0qmPmJzYzacH4pH33eO8YqUXPds3pZuFCvdxdCIFhJcCQnBVeqqwNZCvUnIq5WxXo_PCV-VypY=w1064-h798-s-no?authuser=3"), #111111;
+  color: #eee;
+  height: 100vh;
+  min-width: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
 
 html{
   background-color: #2D2E2E;
