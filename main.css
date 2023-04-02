@@ -43,10 +43,7 @@ h4{
 }
 
 .list{
-  padding-top: 3em;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 3em;  
+  padding: 3em 8em;
   animation: fadein 2s;
   position: relative;
   z-index: 0;
@@ -77,10 +74,9 @@ a:hover {
   padding: 1.8em 0em 3em 2em;
   text-align: justify;
   float: left;
-  width: 100%;
+  width: 40vw;
   z-index: 99999;
   position: relative;
-  display: none;
 }
 
 .bioTitle{
@@ -113,24 +109,20 @@ a:hover {
 @media only screen and (max-device-width: 480px) {
 
         h1{
-          margin-right: 0em;
-          padding-bottom: 0em;
+          margin-right: -0.7em;
+          padding-bottom: 0.4em;
         }
         h1.name{
           text-align: center;
-          margin: 0em 0 0 0;
+          margin: 2em 0 0 0;
           padding: 0;
           font-size: 2em;
         }
         .list{
-          padding: 0em;
-          float: none;
-          text-align: left;
-          width: 75%;
-          margin: 0 auto;
+          padding: 0em 3em;
         }
         .bio{
-          padding: 0em 0;
+          padding: 1em 0;
           float: none;
           text-align: left;
           width: 100%;
