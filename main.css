@@ -120,6 +120,10 @@ a:hover {
         }
         .list{
           padding: 0em 3em;
+          float: none;
+          text-align: left;
+          width: 100%;
+          margin: 0 auto;
         }
         .bio{
           padding: 0em 0;
